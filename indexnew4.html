@@ -7,16 +7,25 @@
     <link rel="stylesheet" href="./stylenew4.css">
 </head>
 <body>
-    <div>
+    <div class="money">
         <p>Currency Converter</p>
-        <input type="number" class="income" placeholder="Enter your sum">
+        <label for="income"> Please, enter your sum: </label>
+        <input type="number" class="income" placeholder="Enter your sum"><br>
+        <label> From: </label>
+        <select name="income1" id="money1">
+            <option value="none">Select currency</option>
+            <option value="usd">Dollar</option>
+            <option value="uzs1">Uzbek soum</option>
+        </select>
+        <label> To: </label>
         <select name="income" id="money" oninput="convert()">
+            <option value="none">Select currency</option>
             <option value="rub">Rouble</option>
             <option value="usd">Dollar</option>
             <option value="euro">Euro</option>
-        </select>
-        <input type="text" class="outcome">
-        <button ></button>
+            <option value="uzs">Uzbek soum</option>
+        </select><br>
+        <label for="outcome"> Your result: </label><input type="text" class="outcome" placeholder="Your result">
     </div>
     <script src="./mainnew4.js"></script>
 </body>

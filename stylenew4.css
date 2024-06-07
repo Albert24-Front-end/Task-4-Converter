@@ -1,0 +1,25 @@
+body {
+    width: 500px;
+    border: solid lightgreen 3px;
+}
+.money {
+    display: block;
+    padding: 10px;
+    margin: 5px;
+}
+option {
+    color: red;
+}
+input {
+    color: blue;
+}
+p {
+    color: lightcoral;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+}
+label {
+    color: green;
+    font-weight: 700;
+}
